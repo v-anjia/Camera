@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: numpy-syncer
+Version: 0.0.1
+Summary: Manage a Numpy data structure using Peewee-Sync
+Home-page: https://github.com/hampsterx/numpy-syncer
+Author: Tim van der Hulst
+Author-email: tim.vdh@gmail.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: peewee-syncer (>=0.2.2)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: aiofiles (>=0.4.0)
+Requires-Dist: contexttimer (>=0.3.3)
+Requires-Dist: humanize (>=0.5.1)
+
+# Numpy Syncer
+
+Manage a Numpy data structure using Peewee-Sync
+
+* Uses peewee-syncer to sync to a numpy object and persist to file.
+* Use case is to have an efficient in memory cache of an Database Table, synced by last modified date for example.
+
+Python 3.5+, primarily uses Asyncio
+
+
+```
+    pip install numpy-syncer
+```
+
+
+
+
